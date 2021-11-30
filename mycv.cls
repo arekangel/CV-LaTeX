@@ -96,13 +96,9 @@
 \faGithub\ \href{https://github.com/#1}{#1}
 }
 
-\newcommand{\contact}[6]{
+\newcommand{\contact}[2]{
     \mobile{#1} {\Large\textperiodcentered} %
 	\email{#2} {\Large\textperiodcentered} %
-	\telegram{#3}\\[0.25cm]
-	\homepage{#4} {\Large\textperiodcentered} %
-	\linkedin{#5} {\Large\textperiodcentered} %
-	\github{#6}\\[0.5cm]
 }
 
 % XeLaTeX packages.
